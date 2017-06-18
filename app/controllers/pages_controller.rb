@@ -5,4 +5,6 @@ class PagesController < ApplicationController
   def zuzeca
   end
   
+  def heyoka
+  end
 end
