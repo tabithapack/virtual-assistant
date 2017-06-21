@@ -14,6 +14,11 @@
  *= require_self
  */
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
@@ -24,6 +29,24 @@ h1, h2, h3 {
     font-family: 'Artifika', serif;
 }
 
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-top: 12px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 75px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.bisonimage {
+    display: inline;
+    margin-right: 10px;
+}
 
 
 

@@ -2,9 +2,7 @@ class PagesController < ApplicationController
   def home
   end
   
-  def zuzeca
+  def about
   end
   
-  def heyoka
-  end
 end
